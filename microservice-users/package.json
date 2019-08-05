@@ -1,0 +1,25 @@
+{
+  "name": "fmicroservice-users",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "“Gabriel <“gabrielinaciodemello@gmail.com”> (“https://github.com/gabrielinaciodemello)",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-route": "^3.2.0",
+    "mongodb": "^3.3.0-beta2",
+    "servicebus": "^2.3.3",
+    "servicebus-retry": "0.0.13",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-plugin-immutable": "^1.0.0",
+    "eslint-plugin-sort-requires": "^2.1.0"
+  }
+}
